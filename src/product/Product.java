@@ -27,7 +27,6 @@ public class Product {
     }
     public String priceTag(){
         StringBuilder st = new StringBuilder();
-        st.append("  PRICE TAGS  ");
         st.append(name + " $" + price);
 
         return st.toString();
